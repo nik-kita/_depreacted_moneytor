@@ -1,0 +1,15 @@
+@layer base, common, routes, islands, components;
+
+@import 'styles.common.css';
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+  }
+}
